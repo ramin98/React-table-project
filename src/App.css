@@ -1,0 +1,83 @@
+
+
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border: 1px solid #ccc;
+  color:purple;
+  background-color: snow;
+}
+
+th {
+  padding:17px;
+}
+
+td{
+  padding:17px;
+}
+
+.names{
+  border: 1px solid #ccc;
+}
+
+.sum{
+  border: 1px solid #ccc;
+}
+
+.name{
+  border: 1px solid #ccc;
+}
+
+.button_table td:hover {
+  background-color: #eee;
+}
+
+.button_table {
+  border: 1px solid #ccc;
+  background-color: snow;
+}
+
+.tbody_{
+  border: 1px solid #ccc;
+}
+ 
+tbody{
+  border: 1px solid #ccc;
+ }
+
+.sums{
+   background-color: rgb(237, 227, 237);
+ }
+
+img{
+   width: 15px;
+   height: 15px;
+ }
+
+.tbody_ .name:nth-child(1)::before{
+  content:url("https://testing1.alytics.ru/icons/usersgroup.png");
+}
+.tbody_ .name:nth-child(2)::before {
+  content:url("https://direct.yandex.ru/favicon.ico");
+}
+.tbody_ .name:nth-child(3)::before{
+  content:url("https://testing1.alytics.ru/icons/groups/315b6fb9-cc96-4f34-9e1c-50f5550ce863.png");
+}
+.tbody_ .name:nth-child(4)::before {
+  content:url("https://www.google.com/images/branding/product/1x/ads_24dp.png");
+}
+.tbody_ .name:nth-child(5)::before {
+  content:url("https://testing1.alytics.ru/icons/groups/927a0bd0-bc5a-4722-beb7-c1d520c7ec72.png");
+}
+.tbody_ .name:nth-child(6)::before {
+  content:url("https://testing1.alytics.ru/icons/e-mail.ico");  
+}
